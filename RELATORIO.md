@@ -153,17 +153,11 @@ Repositório: https://github.com/brianfigueredo0209-alt/Livraria-api
 - `GET /actuator/health` retornando `{"status":"UP"}`.
 - `POST /livros` gravando um livro no PostgreSQL e `GET /livros` listando.
 
-![Testes e build com sucesso](1-testes.png)
-*Figura 1: 6 testes executados e BUILD SUCCESS.*
-
-![Containers em execução](2-containers.png)
-*Figura 2: containers api e db rodando.*
-
-![Actuator health](3-health.png)
-*Figura 3: /actuator/health retornando UP.*
-
-![Cadastro de livro](4-post.png)
-*Figura 4: POST /livros gravando no PostgreSQL.*
-
-![Listagem de livros](5-get.png)
-*Figura 5: GET /livros listando o livro cadastrado.*
+<img width="1009" height="569" alt="Captura de tela 2026-11-23 213632" src="https://github.com/user-attachments/assets/32b74478-358d-4af6-8c17-dea764be7476" />
+<img width="704" height="533" alt="Captura de tela 2026-11-23 213416" src="https://github.com/user-attachments/assets/6a9bcfd8-7c0a-4e55-ba7d-ba4aacb17e7a" />
+<img width="693" height="447" alt="Captura de tela 2026-11-23 213447" src="https://github.com/user-attachments/assets/00dfbd96-f6d6-43a7-a6f5-b026d523962a" />
+<img width="1011" height="563" alt="Captura de tela 2026-11-23 213524" src="https://github.com/user-attachments/assets/68c598b0-3542-4f15-9a0f-4fad6f017c8d" />
+<img width="1000" height="557" alt="Captura de tela 2026-11-23 213547" src="https://github.com/user-attachments/assets/599129de-1918-4f02-b1fb-364e6ab1453e" />
+<img width="1002" height="542" alt="Captura de tela 2026-11-23 213559" src="https://github.com/user-attachments/assets/748cdeea-1c6a-451f-9c3f-8b3555265f46" />
+<img width="1013" height="567" alt="Captura de tela 2026-11-23 213613" src="https://github.com/user-attachments/assets/24787944-afeb-405d-b36f-5e5785fd2097" />
+<img width="1005" height="565" alt="Captura de tela 2026-11-23 213622" src="https://github.com/user-attachments/assets/6c50bb67-4914-42a4-a66d-0841c7831130" />
