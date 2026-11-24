@@ -153,4 +153,17 @@ Repositório: https://github.com/brianfigueredo0209-alt/Livraria-api
 - `GET /actuator/health` retornando `{"status":"UP"}`.
 - `POST /livros` gravando um livro no PostgreSQL e `GET /livros` listando.
 
-Prints em `evidencias/` (inserir aqui).
+![Testes e build com sucesso](1-testes.png)
+*Figura 1: 6 testes executados e BUILD SUCCESS.*
+
+![Containers em execução](2-containers.png)
+*Figura 2: containers api e db rodando.*
+
+![Actuator health](3-health.png)
+*Figura 3: /actuator/health retornando UP.*
+
+![Cadastro de livro](4-post.png)
+*Figura 4: POST /livros gravando no PostgreSQL.*
+
+![Listagem de livros](5-get.png)
+*Figura 5: GET /livros listando o livro cadastrado.*
